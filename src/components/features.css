@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: animatetext;
+    src: url(/assets/fonts/font12.woff2);
+}
+
+@font-face {
+    font-family: animatetext2;
+    src: url(/assets/fonts/font-8.woff2);
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.model-background {
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+
+.model-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page1 a {
+    z-index: 110;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    background: white;
+    text-decoration: none;
+    color: black;
+    padding: 20px 200px;
+    font-size: 30px;
+    font-family: animatetext;
+    border-radius: 5px;
+}
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    padding: 1vw 0;
+    background: linear-gradient(90deg, #2fa93d, #34ba44e6);
+}
+
+.page2 h1 {
+    font-size: 38vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: animatetext;
+    color: #fff;
+    position: relative;
+}
+
+.page2 .motive {
+    width: 250px;
+    font-family: animatetext2;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.page3 {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.page3 .green {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.green-img {
+    padding: 20px;
+    position: relative;
+}
+
+.green-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.green h1,
+.green-img2 h1 {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    color: #fff;
+    font-size: 50px;
+    font-family: animatetext2;
+}
+
+.green p {
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-size: 30px;
+    color: #fff;
+    font-family: animatetext;
+    text-decoration: underline;
+}
+
+.green2 {
+    padding: 20px;
+}
+
+.green-img2 {
+    flex: 1;
+    position: relative;
+}
+
+.green-img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.green-img2 h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 50px;
+    color: white;
+    font-family: animatetext;
+}
+
+.last {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Teslalogo;
+    src: url(/assets/fonts/font-11.woff2);
+}
+
+nav {
+    padding: 1px 80px;
+    z-index: 1000;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+nav .get {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+nav .get button {
+    padding: 12px;
+    font-family: Teslalogo;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    background: #111;
+    color: #fff;
+}
+
+nav .logo img {
+    height: 12px;
+}
+
+nav .logo p {
+    font-size: 45px;
+}
+
+nav .links {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    top: -120%;
+    padding: 100px 200px;
+    background: #f9f3eb;
+    z-index: 1000;
+}
+
+nav .links a {
+    font-size: 30px;
+    color: #000;
+    opacity: 100;
+    text-decoration: none;
+    font-family: Teslalogo;
+    display: block;
+    margin-bottom: 30px;
+}
+
+nav .links p {
+    font-family: Teslalogo;
+    font-size: 35px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+nav .enquiry {
+    margin-top: 80px;
+}
+
+nav .enquiry a {
+    font-size: 20px;
+}
+
+nav .linkshome a {
+    color: #000;
+    text-decoration: none;
+    font-family: Teslalogo;
+    margin-right: 40px;
+}
+
+@media(max-width:1080px) {
+    nav .linkshome {
+        display: none;
+    }
+}
+@media(max-width:900px) {
+    nav .get button{
+        display: none;
+    }
+}

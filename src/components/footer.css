@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: foot;
+    src: url(/assets/fonts/font-8.woff2);
+}
+
+@font-face {
+    font-family: lasta;
+    src: url(/assets/fonts/font-10.woff2);
+}
+
+.footer-pera {
+    width: 100%;
+    height: auto;
+    padding: 40px 500px;
+    font-family: foot;
+    color: grey;
+    font-size: 12px;
+}
+
+.foot-a {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foot-a a {
+    text-decoration: none;
+    font-family: lasta;
+    font-size: 11px;
+    color: gray;
+}
+
+@media(max-width:1200px){
+    .footer-pera {
+        padding: 40px 300px;
+    }
+}
+
+@media(max-width:900px){
+    .footer-pera {
+        padding: 40px 200px;
+    }
+}
+
+@media(max-width:700px){
+    .footer-pera {
+        padding: 40px 100px;
+    }
+}
+
+@media(max-width:500px){
+    .footer-pera {
+        padding: 40px 50px;
+    }
+}
+
+@media(max-width: 900px){
+    .foot-a{
+        display: none;
+    }
+}
