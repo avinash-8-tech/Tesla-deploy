@@ -1,7 +1,13 @@
-# Tesla Website
+# 🚗 Tesla Website
+
+<br>
 
 
-## Technologies Used
+
+# 🤖 Introduction
+Dive into the world of Tesla with this immersive website! This project features stunning smooth animations powered by GSAP, interactive 3D models created using Three.js, seamless scrolling experiences facilitated by Lenis, and dynamic content transitions using Swiper.js. Explore the elegance and innovation of Tesla vehicles as you navigate through captivating visuals and engaging interactions. Whether you're a fan of cutting-edge technology or simply curious about Tesla's designs, this site offers a unique way to experience the future of electric vehicles.
+
+## ⚙️ Tech Stack
 
 - Vite + React
 -  React Router-Dom
@@ -11,14 +17,44 @@
 - Lenis.js
 - Animated Cursor React
 
-## Features
-- Responsive design
-- Smooth animations
-- Interactive 3D Models
+## 🔋 Features
+👉 Responsive design
+
+👉 Smooth animations
+
+👉 Interactive 3D Models
+
+👉 many more, including code architecture and reusability
+
+# 🤸 Quick Start
+Follow these steps to set up the project locally on your machine.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
+
+## Cloning the Repository
+```bash
+git clone https://github.com/avinash-8-tech/Tesla-deploy.git
+cd Tesla-deploy
+```
+## Install the project dependencies using npm:
+```bash
+npm install
+```
+## Running the Project
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 
 # Output
-
+ ❗Please note that the video size displayed is compressed due to GitHub's limitations on file sizes and formats.
 
 https://github.com/user-attachments/assets/decd291b-125a-4ec1-8c62-9594c8e06286
 
