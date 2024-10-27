@@ -34,7 +34,7 @@ Follow these steps to set up the project locally on your machine.
 Make sure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/) (node package manager)
 - [Git](https://git-scm.com/)
 
 ## Cloning the Repository
