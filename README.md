@@ -1,4 +1,4 @@
-# 🚗 Tesla Website
+<h1 align="center">🚗 Tesla Website</h1>
 
 <br>
 
