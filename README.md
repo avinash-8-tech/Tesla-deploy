@@ -8,7 +8,6 @@
 2. [⚙️ Tech Stack](#️-tech-stack)
 3. [🔋 Features](#-features)
 4. [🤸 Quick Start](#-quick-start)
-5. [❗ Output](#-output)
 
 # 🤖 Introduction
 Dive into the world of Tesla with this immersive website! This project features stunning smooth animations powered by GSAP, interactive 3D models created using Three.js, seamless scrolling experiences facilitated by Lenis, and dynamic content transitions using Swiper.js. Explore the elegance and innovation of Tesla vehicles as you navigate through captivating visuals and engaging interactions. Whether you're a fan of cutting-edge technology or simply curious about Tesla's designs, this site offers a unique way to experience the future of electric vehicles.
