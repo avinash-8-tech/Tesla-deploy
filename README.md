@@ -20,7 +20,6 @@ Dive into the world of Tesla with this immersive website! This project features 
 -  React Router-Dom
 - Three.js
 - Gsap
-- Swiper.js
 - Lenis.js
 - Animated Cursor React
 
